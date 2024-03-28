@@ -38,7 +38,7 @@ inputs:
   include-default-sapp-filters:
     description: Use SAPP filters packaged with Pysa
     required: false
-    default: true
+    default: false
     type: boolean
   use-poetry:
     description: Use poetry to install dependencies
